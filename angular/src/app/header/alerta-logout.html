@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>Olá !</h1>
+<div mat-dialog-content>
+    <p>Você deseja realmente sair ?</p>
+</div>
+<div mat-dialog-actions>
+    <button mat-raised-button color="warn" (click)="onNoClick()">Não valeu !</button>
+    <button mat-raised-button color="accent"(click)="onYesClick()" cdkFocusInitial>Quero sim !</button>
+</div>

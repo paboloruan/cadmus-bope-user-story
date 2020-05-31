@@ -1,0 +1,17 @@
+<mat-card class="card">
+  <mat-card-header>
+    <div mat-card-avatar class="header-image"></div>
+    <mat-card-title>{{usuario.name}}</mat-card-title>
+    <mat-card-subtitle>Programeiro</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="https://i.ytimg.com/vi/0xbi3U6G7iA/maxresdefault.jpg" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>
+      {{usuario.about}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <a mat-button href="{{usuario.linkedin}}" target="_blank">LinkedIn</a>
+    <a mat-button href="{{usuario.github}}" target="_blank">Github</a>
+  </mat-card-actions>
+</mat-card>

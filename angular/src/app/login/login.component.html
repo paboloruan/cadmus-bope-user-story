@@ -1,0 +1,15 @@
+<form class="form">
+
+  <mat-form-field class="full-width">
+    <mat-label>E-mail</mat-label>
+    <input matInput placeholder="Digite aqui seu e-mail" [(ngModel)]="user.userName" type="text" name="username">
+  </mat-form-field>
+
+  <mat-form-field class="full-width">
+    <mat-label>Senha</mat-label>
+    <input matInput placeholder="Digite aqui sua senha" [(ngModel)]="user.password" type="password" name="password">
+  </mat-form-field>
+
+  <button mat-raised-button (click)="fazerLogin()" class="full-width" color="primary">Logar</button>
+
+</form>
