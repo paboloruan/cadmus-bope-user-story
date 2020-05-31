@@ -1,15 +1,24 @@
-<form class="form">
+<mat-card class="card">
+  <mat-card-header class="card-title">
+    <mat-card-title>
+      <h1><b>CADMUS - USER STORY</b></h1>
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form class="form">
 
-  <mat-form-field class="full-width">
-    <mat-label>E-mail</mat-label>
-    <input matInput placeholder="Digite aqui seu e-mail" [(ngModel)]="user.userName" type="text" name="username">
-  </mat-form-field>
+      <mat-form-field class="full-width card-form-text">
+        <mat-label>E-mail</mat-label>
+        <input matInput placeholder="Digite aqui seu e-mail" [(ngModel)]="user.userName" type="text" name="username">
+      </mat-form-field>
 
-  <mat-form-field class="full-width">
-    <mat-label>Senha</mat-label>
-    <input matInput placeholder="Digite aqui sua senha" [(ngModel)]="user.password" type="password" name="password">
-  </mat-form-field>
+      <mat-form-field class="full-width card-form-text">
+        <mat-label>Senha</mat-label>
+        <input matInput placeholder="Digite aqui sua senha" [(ngModel)]="user.password" type="password" name="password">
+      </mat-form-field>
 
-  <button mat-raised-button (click)="fazerLogin()" class="full-width" color="primary">Logar</button>
+      <button mat-raised-button (click)="fazerLogin()" class="full-width card-form-button" color="primary">Logar</button>
 
-</form>
+    </form>
+  </mat-card-content>
+</mat-card>

@@ -7,3 +7,21 @@
   max-width: 500px;
   width: 100%;
 }
+
+.card {
+  padding: 42px;
+
+  &-title {
+    justify-content: center;
+    padding-bottom: 24px;
+  }
+
+  &-form {
+    &-text {
+      padding-bottom: 16px;
+    }
+
+    &-button {
+    }
+  }
+}

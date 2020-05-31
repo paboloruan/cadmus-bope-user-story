@@ -22,6 +22,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatCardModule } from '@angular/material/card';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import {MatDividerModule} from '@angular/material/divider';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -46,6 +47,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatDialogModule,
     MatCardModule,
     MatSnackBarModule,
+    MatDividerModule,
 
     BrowserAnimationsModule
   ],
